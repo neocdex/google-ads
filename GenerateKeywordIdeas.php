@@ -25,22 +25,22 @@ use GetOpt\GetOpt;
 use Google\Ads\GoogleAds\Examples\Utils\ArgumentNames;
 use Google\Ads\GoogleAds\Examples\Utils\ArgumentParser;
 use Google\Ads\GoogleAds\Lib\OAuth2TokenBuilder;
-use Google\Ads\GoogleAds\Lib\V8\GoogleAdsClient;
-use Google\Ads\GoogleAds\Lib\V8\GoogleAdsClientBuilder;
-use Google\Ads\GoogleAds\Lib\V8\GoogleAdsException;
-use Google\Ads\GoogleAds\Util\V8\ResourceNames;
-use Google\Ads\GoogleAds\V8\Enums\KeywordPlanNetworkEnum\KeywordPlanNetwork;
-use Google\Ads\GoogleAds\V8\Errors\GoogleAdsError;
-use Google\Ads\GoogleAds\V8\Services\GenerateKeywordIdeaResult;
-use Google\Ads\GoogleAds\V8\Services\KeywordAndUrlSeed;
-use Google\Ads\GoogleAds\V8\Services\KeywordSeed;
-use Google\Ads\GoogleAds\V8\Services\UrlSeed;
+use Google\Ads\GoogleAds\Lib\V11\GoogleAdsClient;
+use Google\Ads\GoogleAds\Lib\V11\GoogleAdsClientBuilder;
+use Google\Ads\GoogleAds\Lib\V11\GoogleAdsException;
+use Google\Ads\GoogleAds\Util\V11\ResourceNames;
+use Google\Ads\GoogleAds\V11\Enums\KeywordPlanNetworkEnum\KeywordPlanNetwork;
+use Google\Ads\GoogleAds\V11\Errors\GoogleAdsError;
+use Google\Ads\GoogleAds\V11\Services\GenerateKeywordIdeaResult;
+use Google\Ads\GoogleAds\V11\Services\KeywordAndUrlSeed;
+use Google\Ads\GoogleAds\V11\Services\KeywordSeed;
+use Google\Ads\GoogleAds\V11\Services\UrlSeed;
 use Google\ApiCore\ApiException;
 
 /** This example generates keyword ideas from a list of seed keywords or a seed page URL. */
 class GenerateKeywordIdeas
 {
-    private const CUSTOMER_ID = '3319057396';
+    private const CUSTOMER_ID = '331-905-7396';
     // Location criteria IDs. For example, specify 21167 for New York. For more information
     // on determining this value, see
     // https://developers.google.com/adwords/api/docs/appendix/geotargeting.

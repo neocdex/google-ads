@@ -1,6 +1,6 @@
 {
     "require": {
-        "googleads/google-ads-php": "^11.0",
+        "googleads/google-ads-php": "15.1.0",
         "react/http": "^1.5",
         "ulrichsg/getopt-php": "^4.0"
     }
